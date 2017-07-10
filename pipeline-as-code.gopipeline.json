@@ -12,23 +12,13 @@
 		"name": "Stage-1",
 		"jobs": [{
 			"name": "Job-1",
-			"timeout": "1",
 			"tasks": [{
-				"pluginConfiguration": {
-					"id": "script-executor",
-					"version": "1"
-				},
-				"configuration": {
-					"property": [{
-							"key": "script",
-							"value": "echo \" hello \""
-						},
-						{
-							"key": "shtype",
-							"value": "bash"
-						}
-					]
-				}
+				"type": "exec",
+				"run_if": "passed",
+				"on_cancel" : null,
+				"command": "echo",
+				"arguments": ["Chhoton"],
+				"working_directory": null
 			}]
 		}]
 	}]
