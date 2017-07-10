@@ -1,5 +1,5 @@
 {
-   "@name": "ani_test",
+   "@name": "ani",
    "materials": {
       "git": {
          "@url": "https://github.com/aniruddha87/hcl"
