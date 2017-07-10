@@ -2,7 +2,7 @@
   "pipeline": {
     "-name": "pipelineascode",
     "materials": {
-      "git": { "-url": "https://github.com/aniruddha87/hcl" }
+      "git": { "-url": "https://github.com/aniruddha87/hcl.git" }
     },
     "stage": {
       "-name": "defaultStage",
