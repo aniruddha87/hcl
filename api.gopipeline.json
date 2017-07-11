@@ -8,18 +8,18 @@
 		"type": "git",
 		"name": "mygit"
 	}],"stages": [{
-			"name": "apiautomation",
-			"jobs": [{
-				"name": "Cucumber",
-				"resources": ["ip-10-0-4-33"],
-				"tasks": [{
-					"type": "exec",
-					"run_if": "passed",
-					"on_cancel" : null,
-					"command": "echo",
-					"arguments": ["$PATH"],
-					"working_directory": null
-				}]
+		     "name": "apiautomation",
+		     "jobs": [{
+			     "name": "Cucumber",
+			     "resources": ["ip-10-0-4-33"],
+			     "tasks": [{
+				      "type": "exec",
+				      "run_if": "passed",
+				      "on_cancel" : null,
+				      "command": "echo",
+				      "arguments": ["$PATH"],
+				      "working_directory": null
+			      }]
 			}]
 		}]
 }
