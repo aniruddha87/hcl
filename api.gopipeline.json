@@ -1,0 +1,25 @@
+{
+		"name": "Api",
+		"group": "PAC",
+		"enable_pipeline_locking": true,
+		"environment_variables": [],
+		"materials": [{
+		"url": "https://github.com/aniruddha87/hcl.git",
+		"type": "git",
+		"name": "mygit"
+	}],"stages": [{
+			"name": "apiautomation",
+			"jobs": [{
+				"name": "Cucumber",
+				"resources": ["ip-10-0-4-33"],
+				"tasks": [{
+					"type": "exec",
+					"run_if": "passed",
+					"on_cancel" : null,
+					"command": "echo",
+					"arguments": ["$PATH"],
+					"working_directory": null
+				}]
+			}]
+		}]
+}
