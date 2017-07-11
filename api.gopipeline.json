@@ -1,9 +1,9 @@
 {
-		"name": "Api",
-		"group": "PAC",
-		"enable_pipeline_locking": true,
-		"environment_variables": [],
-		"materials": [{
+	"name": "Api",
+	"group": "PAC",
+	"enable_pipeline_locking": true,
+	"environment_variables": [],
+	"materials": [{
 		"url": "https://github.com/aniruddha87/hcl.git",
 		"type": "git",
 		"name": "mygit"
