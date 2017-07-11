@@ -1,6 +1,6 @@
 {
 	"name": "Api",
-	"group": "PAC",
+	"group": "POC",
 	"enable_pipeline_locking": true,
 	"environment_variables": [],
 	"materials": [{
