@@ -1,4 +1,4 @@
 {
     "name" : "dev",
-    "pipelines" : [ "pipelineascode","Api-Final" ]
+    "pipelines" : [ "pipelineascode","Api-Final","Api" ]
 }
