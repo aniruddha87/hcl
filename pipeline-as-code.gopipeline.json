@@ -21,6 +21,14 @@
 				"arguments": ["Chhoton"],
 				"working_directory": null
 			}]
+			"tasks": [{
+				"type": "exec",
+				"run_if": "passed",
+				"on_cancel" : null,
+				"command": "echo",
+				"arguments": ["Mytoll_Devops"],
+				"working_directory": null
+			}]
 		}]
 	}]
 }
