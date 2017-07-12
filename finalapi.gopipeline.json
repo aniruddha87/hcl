@@ -1,0 +1,27 @@
+{
+	"name": "Final-Api",
+	"group": "POC",
+	"enable_pipeline_locking": true,
+	"environment_variables": [],
+	"materials": [{
+		"url": "https://github.com/dg-malkiyatsingh/MyToll.git",
+		"type": "git",
+		"name": "mygit"
+	}],
+	"stages": [{
+		"name": "defaultStage",
+		"jobs": [{
+			"name": "Job-1",
+			"resources": ["ip-10-0-4-33"],
+			"tasks": [{
+				"type": "exec",
+				"run_if": "passed",
+				"on_cancel": null,
+				"key": "script",
+				"command": "echo",
+				"arguments": ["HI"],
+				"working_directory": null
+			}]
+		}]
+	}]
+}
