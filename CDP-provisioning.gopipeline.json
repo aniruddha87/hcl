@@ -2,7 +2,12 @@
  	"name": "CDP-Provisioning", 
  	"group": "POC", 
  	"enable_pipeline_locking": true, 
- 	"environment_variables": [], 
+ 	"environment_variables": [],
+	"materials": [{ 
+ 		"url": "https://github.com/aniruddha87/hcl.git", 
+ 		"type": "git", 
+ 		"name": "mygit" 
+	}], 
 	"parameters": [{
 		"ansible_home": "/home/cdp/anirban/workspace-np-r2/Production",
 		"services": "environment/aws_services",
@@ -11,11 +16,6 @@
 		"site_id": "M",
 		"softwares": "softwares/playbooks"
 		}],
- 	"materials": [{ 
- 		"url": "https://github.com/aniruddha87/hcl.git", 
- 		"type": "git", 
- 		"name": "mygit" 
-	}], 
  	"stages": [
 	{ 
 		"name": "MGMT-server-stage",
