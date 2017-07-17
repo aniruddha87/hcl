@@ -99,7 +99,7 @@
 			"run_if": "passed",
 			"on_cancel": null,
 			"command": "script",
-			"arguments": [" echo sudo su - cdp -c 'cd #{ansible_home}/#{ec2};ansible-playbook ec2-provision.yml -e type=servers -e site1=#{site}  -e site2=#{environment} -e site_id=#{site_id} --tags \'appserver1_az1,appserver2_az2\' -v'&#xD;&#xD;", "sudo su - cdp -c 'cd #{ansible_home}/#{ec2};ansible-playbook ec2-provision.yml -e type=servers -e site1=#{site}  -e site2=#{environment} -e site_id=#{site_id} --tags \'appserver1_az1\' -v'"],
+			"arguments": [" echo sudo su - cdp -c", "cd #{ansible_home}/#{ec2};ansible-playbook ec2-provision.yml -e type=servers -e site1=#{site}  -e site2=#{environment} -e site_id=#{site_id} --tags \"appserver1_az1,appserver2_az2\" -v &#xD;&#xD;", "sudo su - cdp -c", " cd #{ansible_home}/#{ec2};ansible-playbook ec2-provision.yml -e type=servers -e site1=#{site}  -e site2=#{environment} -e site_id=#{site_id} --tags \"appserver1_az1\" -v"],
 			"working_directory": null
 		}]
 	}]
