@@ -8,17 +8,7 @@
 			"branch": "dev",
 			"type": "git",
 			"name": "mygit"
-		},
-		{
-			"filter": [{
-				"ignore": [{
-					"pattern": "gitadmin@cdputaum001:/home/gitadmin/git-repos/GO.git",
-					"externals": [],
-					"tools": []
-				}]
-			}]
-		}
-	],
+		}],
 	"stages": [{
 		"name": "AWS-Services",
 		"fetchMaterials": "false",
