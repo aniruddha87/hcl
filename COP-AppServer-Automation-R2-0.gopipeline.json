@@ -76,7 +76,7 @@
 			"working_directory": null
 		}]
 	}]
-}]
+}],
 	"stages": [
 	{
 		"name": "EC2-Provision",
@@ -102,7 +102,7 @@
 			}
 		]
 	}]
-}]
+}],
 "stages": [
 { 
 	"name": "Liferay-JBoss",
@@ -129,7 +129,7 @@
 			"working_directory": null
 		}]
 	}]
-}]
+}],
 "stages": [
 { 
 	"name": "APM",
