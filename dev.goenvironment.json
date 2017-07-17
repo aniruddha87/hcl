@@ -1,4 +1,4 @@
 {
     "name" : "dev",
-    "pipelines" : [ "pipelineascode","Api-Final","Api","CDP-Provisioning","COP-AppServer-Automation-R2.0.gopipeline.json" ]
+    "pipelines" : [ "pipelineascode","Api-Final","Api","CDP-Provisioning","COP-AppServer-Automation-R2.0" ]
 }
