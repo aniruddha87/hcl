@@ -32,7 +32,7 @@
 	"stages": [
 	{ 
 	"name": "AWS-Services",
-	"fetchMaterials": "false"
+	"fetchMaterials": "false",
 	"jobs": [{
 		"name": "AWS RDS",
 		"resources": ["Build"],
@@ -80,7 +80,7 @@
 		"stages": [
 	{ 
 		"name": "EC2-Provision",
-		"fetchMaterials": "false"
+		"fetchMaterials": "false",
 		"jobs": [
 		{
 			"resources": ["Build"],
