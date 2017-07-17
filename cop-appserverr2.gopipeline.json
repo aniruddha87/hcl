@@ -1,7 +1,7 @@
 { 
  	"name": "COP-AppServerR2", 
  	"group": "POC", 
- 	"enable_pipeline_locking": true, 
+ 	"enable_pipeline_locking": false, 
  	"environment_variables": [], 
 	"parameters": [{
 		"environment": "dev",
