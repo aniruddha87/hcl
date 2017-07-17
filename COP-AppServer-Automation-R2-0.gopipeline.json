@@ -53,7 +53,6 @@
 				"arguments": ["echo sudo su - cdp -c ", " echo cd #{ansible_home}/#{services};ansible-playbook aws-services.yml -e type=services -e site1=#{site} -e site2=#{environment} -e site_id=#{site_id} --tags \"aws-rds\" -v"],
 				"working_directory": null
 			}]
-			}]
 	},
 	{
 		"name": "AWS-CES-S3",
