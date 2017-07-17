@@ -106,7 +106,7 @@
 "stages": [
 { 
 	"name": "Liferay-JBoss",
-	"fetchMaterials": "false"
+	"fetchMaterials": "false",
 	"jobs": [
 	{
 		"name": "Liferay-JBoss-Configuration",
