@@ -34,8 +34,7 @@
 	"fetchMaterials": "false",
 	"jobs": [{
 		"name": "AWS RDS",
-		"resources": ["Build"],
-		"resource": ["Manager"],
+		"resources": ["ip-10-0-4-33"],
 		"tasks": [{
 				"type": "exec",
 				"run_if": "passed",
@@ -55,8 +54,7 @@
 	},
 	{
 		"name": "AWS-CES-S3",
-		"resources": ["Build"],
-		"resource": ["Manager"],
+		"resources": ["ip-10-0-4-33"],
 		"tasks": [ 
 		{
 			"type": "exec",
@@ -81,8 +79,7 @@
 		"name": "EC2-Provision",
 		"fetchMaterials": "false",
 		"jobs": [{
-			"resources": ["Build"],
-			"resource": ["Manager"],
+			"resources": ["ip-10-0-4-33"],
 			"name": "AppServer_EC2_Provision",
 			"tasks": [{
 				"type": "exec",
@@ -110,8 +107,7 @@
 	"jobs": [
 	{
 		"name": "Liferay-JBoss-Configuration",
-		"resources": ["Build"],
-		"resource": ["Manager"],
+		"resources": ["ip-10-0-4-33"],
 		"tasks": [
 		{
 			"type": "exec",
@@ -138,8 +134,7 @@
 	"jobs": [
 	{
 		"name": "APM",
-		"resources": ["Build"],
-		"resource": ["Manager"],
+		"resources": ["ip-10-0-4-33"],
 		"tasks": [
 		{
 			"type": "exec",
