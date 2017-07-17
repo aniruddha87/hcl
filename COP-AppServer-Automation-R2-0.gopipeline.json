@@ -72,7 +72,7 @@
 			"run_if": "passed",
 			"on_cancel" : null,
 			"command": "echo",
-			"arguments": [ "echo sudo su - cdp -c ", "echo cd #{ansible_home}/#{services};ansible-playbook aws-services.yml -e type=services -e site1=#{site} -e site2=#{environment} -e site_id=#{site_id} --tags \"aws-s3ces\" -v" ]
+			"arguments": [ "echo sudo su - cdp -c ", "echo cd #{ansible_home}/#{services};ansible-playbook aws-services.yml -e type=services -e site1=#{site} -e site2=#{environment} -e site_id=#{site_id} --tags \"aws-s3ces\" -v" ],
 			"working_directory": null
 		}]
 	}]
@@ -85,7 +85,7 @@
 		{
 			"resources": ["Build"],
 			"resource": ["Manager"],
-			"name": "AppServer_EC2_Provision"
+			"name": "AppServer_EC2_Provision",
 			"resources": ["Build"],
 			"resource": ["Manager"],
 			"tasks": [
@@ -103,7 +103,7 @@
 				"on_cancel" : null,
 				"command": "echo",
 				"arguments": [ "echo sudo su - cdp -c "," cd #{ansible_home}/#{ec2};ansible-playbook ec2-provision.yml -e type=servers -e site1=#{site}  -e site2=#{environment} -e site_id=#{site_id} --tags \"appserver1_az1,appserver2_az2\" -v "&#xD;
-&#xD;,"sudo su - cdp -c", "cd #{ansible_home}/#{ec2};ansible-playbook ec2-provision.yml -e type=servers -e site1=#{site}  -e site2=#{environment} -e site_id=#{site_id} --tags \"appserver1_az1\" -v "]
+&#xD;,"sudo su - cdp -c", "cd #{ansible_home}/#{ec2};ansible-playbook ec2-provision.yml -e type=servers -e site1=#{site}  -e site2=#{environment} -e site_id=#{site_id} --tags \"appserver1_az1\" -v "],
 				"working_directory": null
 			}]
 		}]
@@ -114,7 +114,7 @@
 		"fetchMaterials": "false"
 		"jobs": [
 		{
-			"name": "Liferay-JBoss-Configuration"
+			"name": "Liferay-JBoss-Configuration",
 			"resources": ["Build"],
 			"resource": ["Manager"],
 			"tasks": [
