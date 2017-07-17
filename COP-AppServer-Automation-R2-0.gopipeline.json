@@ -23,7 +23,7 @@
 		{	"filter":[{ 
 			"ignore": [{
 				"pattern": "gitadmin@cdputaum001:/home/gitadmin/git-repos/GO.git",
-				"externals",
+				"externals"
 				"tools"
 				}]	
 			}]
