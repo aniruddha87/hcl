@@ -4,7 +4,7 @@
  	"enable_pipeline_locking": true, 
  	"environment_variables": [], 
 	"parameters": [{
-		"environment": "dev"
+		"environment": "dev",
 		"ansible_home": "/home/cdp/anirban/workspace-np-r2/Production",
 		"ec2": "environment/ec2_provision",
 		"site": "DEV",
