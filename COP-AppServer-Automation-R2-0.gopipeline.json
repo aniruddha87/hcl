@@ -13,7 +13,7 @@
 		"softwares": "softwares/playbooks",
 		"apm": "stt1"
 		}],
-	"trackingtool link": [ "https://mytollproject.atlassian.net/browse/${ID}", "regex="([A-Z]+-\d+)"" ],
+	"trackingtool link": [ "https://mytollproject.atlassian.net/browse/${ID}", "regex='([A-Z]+-\d+)'" ],
  	"materials": [{ 
  		"url": "gitadmin@cdputaum001:/home/gitadmin/git-repos/GO.git" ,
 		"branch": "dev",
