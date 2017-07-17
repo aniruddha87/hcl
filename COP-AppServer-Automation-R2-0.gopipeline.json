@@ -31,9 +31,9 @@
 	],
 	"stages": [
 	{ 
-		"name": "AWS-Services",
-		"fetchMaterials": "false"
-		"jobs": [{
+	"name": "AWS-Services",
+	"fetchMaterials": "false"
+	"jobs": [{
 		"name": "AWS RDS",
 		"resources": ["Build"],
 		"resource": ["Manager"],
