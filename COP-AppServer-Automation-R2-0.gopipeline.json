@@ -5,7 +5,7 @@
  	"environment_variables": [], 
 	"parameters": [{
 		"environment": "dev"
-		"ansible_home": "/home/cdp/anirban/workspace-np-r2/Production"
+		"ansible_home": "/home/cdp/anirban/workspace-np-r2/Production",
 		"ec2": "environment/ec2_provision",
 		"site": "DEV",
 		"site_id": "D",
