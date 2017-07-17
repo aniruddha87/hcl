@@ -133,10 +133,10 @@
 "stages": [
 { 
 	"name": "APM",
-	"fetchMaterials": "false"
+	"fetchMaterials": "false",
 	"jobs": [
 	{
-		"name": "APM"
+		"name": "APM",
 		"resources": ["Build", "Manager"],
 		"tasks": [
 		{
