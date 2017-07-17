@@ -86,8 +86,6 @@
 		"resources": ["Build"],
 		"resource": ["Manager"],
 		"name": "AppServer_EC2_Provision",
-		"resources": ["Build"],
-		"resource": ["Manager"],
 		"tasks": [
 		{
 			"type": "exec",
