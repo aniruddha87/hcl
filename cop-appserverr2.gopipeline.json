@@ -1,5 +1,5 @@
 { 
- 	"name": "COP-AppServer-Automation-R2.0", 
+ 	"name": "COP-AppServerR2", 
  	"group": "POC", 
  	"enable_pipeline_locking": true, 
  	"environment_variables": [], 
