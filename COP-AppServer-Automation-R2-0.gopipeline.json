@@ -81,7 +81,8 @@
 		"name": "EC2-Provision",
 		"fetchMaterials": "false",
 		"jobs": [{
-			"resources": ["Build", "Manager"],
+			"resources": ["Build"],
+			"resource": ["Manager"],
 			"name": "AppServer_EC2_Provision",
 			"tasks": [{
 				"type": "exec",
@@ -109,7 +110,8 @@
 	"jobs": [
 	{
 		"name": "Liferay-JBoss-Configuration",
-		"resources": ["Build", "Manager"],
+		"resources": ["Build"],
+		"resource": ["Manager"],
 		"tasks": [
 		{
 			"type": "exec",
@@ -136,7 +138,8 @@
 	"jobs": [
 	{
 		"name": "APM",
-		"resources": ["Build", "Manager"],
+		"resources": ["Build"],
+		"resource": ["Manager"],
 		"tasks": [
 		{
 			"type": "exec",
