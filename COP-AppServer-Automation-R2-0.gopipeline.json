@@ -13,7 +13,7 @@
 			"name": "AWS-Services",
 			"fetchMaterials": "false",
 			"jobs": [{
-					"name": "AWS RDS",
+					"name": "AWS-RDS",
 					"resources": ["ip-10-0-4-33"],
 					"tasks": [{
 							"type": "exec",
