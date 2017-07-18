@@ -1,4 +1,6 @@
 {
     "name" : "dev",
+    "environment_variables": []
+    "agents": ["ip-10-0-4-33"],
     "pipelines" : [ "pipelineascode","Api-Final","Api","CDP-Provisioning","COP-AppServer-Automation-R2.0","COP-AppServerR2","testappserver","DevD"]
 }
