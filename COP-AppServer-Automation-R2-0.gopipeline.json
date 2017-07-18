@@ -3,6 +3,16 @@
 	"group": "POC",
 	"enable_pipeline_locking": false,
 	"environment_variables": [],
+	"parameters": [{
+		"environment": "dev",
+		"ansible_home": "/home/cdp/anirban/workspace-np-r2/Production",
+		"ec2": "environment/ec2_provision",
+		"site": "DEV",
+		"site_id": "D",
+		"services": "environment/aws_services",
+		"softwares": "softwares/playbooks",
+		"apm": "stt1"
+	}],
 	"materials": [{
 		"url": "gitadmin@cdputaum001:/home/gitadmin/git-repos/GO.git",
 		"branch": "dev",
