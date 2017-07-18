@@ -24,7 +24,7 @@
 							"working_directory": null
 						},
 						{
-							"type": "script",
+							"type": "exec",
 							"run_if": "passed",
 							"on_cancel": null,
 							"command": "script",
@@ -45,7 +45,7 @@
 							"working_directory": null
 						},
 						{
-							"type": "script",
+							"type": "exec",
 							"run_if": "passed",
 							"on_cancel": null,
 							"command": "script",
