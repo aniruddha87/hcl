@@ -1,7 +1,7 @@
 {
 	"name": "DevD",
 	"group": "POC",
-	"enable_pipeline_locking": true,
+	"enable_pipeline_locking": false,
 	"environment_variables": [],
 	"materials": [{
 		"url": "https://github.com/aniruddha87/hcl.git",
