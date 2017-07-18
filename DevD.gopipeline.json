@@ -18,7 +18,7 @@
 				"run_if": "passed",
 				"on_cancel": null,
 				"command": "echo",
-				"arguments": "Devlina's Pipeline",
+				"arguments": ["Devlina's Pipeline"],
 				"working_directory": null
 			}]
 		}]
