@@ -4,10 +4,10 @@
 	"enable_pipeline_locking": false,
 	"environment_variables": [],
 	"materials": [{
-			"url": "gitadmin@cdputaum001:/home/gitadmin/git-repos/GO.git",
-			"branch": "dev",
-			"type": "git",
-			"name": "mygit"
+		"url": "gitadmin@cdputaum001:/home/gitadmin/git-repos/GO.git",
+		"branch": "dev",
+		"type": "git",
+		"name": "mygit"
 	}],
 	"stages": [{
 			"name": "AWS-Services",
