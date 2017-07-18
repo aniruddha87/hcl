@@ -20,7 +20,7 @@
 							"run_if": "passed",
 							"on_cancel": null,
 							"command": "echo",
-							"arguments": "AWS RDS Creation",
+							"arguments": ["AWS RDS Creation"],
 							"working_directory": null
 						},
 						{
@@ -41,7 +41,7 @@
 							"run_if": "passed",
 							"on_cancel": null,
 							"command": "echo",
-							"arguments": "AWS S3 Creation for CES",
+							"arguments": ["AWS S3 Creation for CES"],
 							"working_directory": null
 						},
 						{
@@ -67,7 +67,7 @@
 						"run_if": "passed",
 						"on_cancel": null,
 						"command": "echo",
-						"arguments": "AppServer EC2 Provision",
+						"arguments": ["AppServer EC2 Provision"],
 						"working_directory": null
 					},
 					{
@@ -92,7 +92,7 @@
 						"run_if": "passed",
 						"on_cancel": null,
 						"command": "echo",
-						"arguments": "Liferay-JBoss Installation",
+						"arguments": ["Liferay-JBoss Installation"],
 						"working_directory": null
 					},
 					{
@@ -117,7 +117,7 @@
 						"run_if": "passed",
 						"on_cancel": null,
 						"command": "echo",
-						"arguments": "splunk configuraiton",
+						"arguments": ["splunk configuraiton"],
 						"working_directory": null
 					},
 					{
