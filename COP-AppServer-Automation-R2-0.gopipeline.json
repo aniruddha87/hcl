@@ -14,7 +14,7 @@
 		"apm": "stt1"
 	}],
 	"materials": [{
-		"url": "gitadmin@cdputaum001:/home/gitadmin/git-repos/GO.git",
+		"url": "https://github.com/aniruddha87/hcl.git",
 		"branch": "dev",
 		"type": "git",
 		"name": "mygit"
