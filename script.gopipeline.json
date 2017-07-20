@@ -3,13 +3,6 @@
 	"group": "POC",
 	"enable_pipeline_locking": false,
 	"environment_variables": [],
-	"parameters": [{
-		"env": "sit",
-		"ansible_home": "/opt/toll/cdp/ansible/playbooks/Production",
-		"SERVER_NAME": "DEMAPAUU003",
-		"PORT_NUMBER": "9200",
-		"softwares": "softwares/playbooks"
-	}],
 	"materials": [{
 		"url": "https://github.com/aniruddha87/hcl.git",
 		"branch": "master",
