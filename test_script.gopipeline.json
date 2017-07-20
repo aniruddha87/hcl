@@ -1,6 +1,6 @@
 {
-	"name": "test_script",
-	"group": "POC",
+	"name": [test_script],
+	"group": [POC],
 	"enable_pipeline_locking": false,
 	"environment_variables": [],
 	"materials": [{
@@ -13,7 +13,7 @@
 		"jobs": [
 		{
 			"name": "script-task",
-			"resources": ["ip-10-0-4-33"],
+			"resources": [ip-10-0-4-33],
 			"tasks": [
 				{
 					"type": "exec",
