@@ -1,6 +1,6 @@
 {
 	"name": "test_script",
-	"group": ["POC"],
+	"group": "POC",
 	"enable_pipeline_locking": false,
 	"environment_variables": [],
 	"materials": [{
