@@ -5,7 +5,6 @@
 	"environment_variables": [],
 	"materials": [{
 		"url": "https://github.com/aniruddha87/hcl.git",
-		"branch": "master",
 		"type": "git",
 		"name": "scripting"
 	}],
