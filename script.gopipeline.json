@@ -2,9 +2,7 @@
 	"name": "test_script",
 	"group": "POC",
 	"enable_pipeline_locking": false,
-	"environment_variables": [{
-		"b-mytoll.syd.dem.dev.hbase": "S3_BUCKET_NAME"
-	}],
+	"environment_variables": [],
 	"parameters": [{
 		"env": "sit",
 		"ansible_home": "/opt/toll/cdp/ansible/playbooks/Production",
@@ -36,7 +34,7 @@
 					"run_if": "passed",
 					"on_cancel": null,
 					"command": "echo",
-					"arguments": ["folder created"],
+					"arguments": "folder created",
 					"working_directory": null
 				}
 			]
