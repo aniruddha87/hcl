@@ -1,5 +1,5 @@
 {
-	"name": ["test_script"],
+	"name": "test_script",
 	"group": ["POC"],
 	"enable_pipeline_locking": false,
 	"environment_variables": [],
