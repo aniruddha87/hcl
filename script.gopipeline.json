@@ -1,0 +1,45 @@
+{
+	"name": "test_script",
+	"group": "POC",
+	"enable_pipeline_locking": false,
+	"environment_variables": [{
+		"b-mytoll.syd.dem.dev.hbase": "S3_BUCKET_NAME"
+	}],
+	"parameters": [{
+		"env": "sit",
+		"ansible_home": "/opt/toll/cdp/ansible/playbooks/Production",
+		"SERVER_NAME": "DEMAPAUU003",
+		"PORT_NUMBER": "9200",
+		"softwares": "softwares/playbooks"
+	}],
+	"materials": [{
+		"url": "git@git.toll.com.au:MyToll/mytoll-infra-paac.git",
+		"branch": "dev",
+		"type": "git",
+		"name": "scripting"
+	}],
+	"stages": [{
+		"name": "script-test",
+		"jobs": [{
+			"name": "script-task",
+			"resources": ["build"],
+			"tasks": [{
+					"type": "exec",
+					"run_if": "passed",
+					"on_cancel": null,
+					"command": "script",
+					"arguments": "mkdir /home/ec2-user/script",
+					"working_directory": null
+				},
+				{
+					"type": "exec",
+					"run_if": "passed",
+					"on_cancel": null,
+					"command": "echo",
+					"arguments": ["folder created"],
+					"working_directory": null
+				}
+			]
+		}]
+	}]
+}
