@@ -1,26 +1,41 @@
-{
+{	
 	"name": "test_script",
 	"group": "POC",
 	"enable_pipeline_locking": false,
 	"environment_variables": [],
+	"parameters": [{
+		"env": "sit",
+		"ansible_home": "/opt/toll/cdp/ansible/playbooks/Production",
+		"SERVER_NAME": "DEMAPAUU003",
+		"PORT_NUMBER": "9200",
+		"softwares": "softwares/playbooks"
+	}],
 	"materials": [{
-		"url": "https://github.com/aniruddha87/hcl.git",
+		"url": "git@git.toll.com.au:MyToll/mytoll-infra-paac.git",
+		"branch": "dev",
 		"type": "git",
 		"name": "scripting"
 	}],
 	"stages": [{
 		"name": "script-test",
-		"jobs": [
-		{
+		"fetchMaterials": "false",
+		"jobs": [{
 			"name": "script-task",
-			"resources": ["ip-10-0-4-33"],
-			"tasks": [
+			"resources": ["build2"],
+			"tasks": [{
+					"type": "exec",
+					"run_if": "passed",
+					"on_cancel": null,
+					"command": "script",
+					"arguments": ["ls -lah mytoll-infra-paac/"],
+					"working_directory": null
+				},
 				{
 					"type": "exec",
 					"run_if": "passed",
 					"on_cancel": null,
 					"command": "echo",
-					"arguments": "mkdir /home/ec2-user/script",
+					"arguments": ["folder created"],
 					"working_directory": null
 				}
 			]
