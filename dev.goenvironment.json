@@ -1,4 +1,4 @@
 {
     "name" : "dev",
-    "pipelines" : [ "pipelineascode","Api-Final","Api","DevD","COP-AppServer-Automation-R2.0","test_script"]
+    "pipelines" : [ "pipelineascode","Api-Final","Api","DevD"]
 }
