@@ -11,8 +11,8 @@
 		"softwares": "softwares/playbooks"
 	}],
 	"materials": [{
-		"url": "git@git.toll.com.au:MyToll/mytoll-infra-paac.git",
-		"branch": "dev",
+		"url": "https://github.com/aniruddha87/hcl.git",
+		"branch": "master",
 		"type": "git",
 		"name": "scripting"
 	}],
