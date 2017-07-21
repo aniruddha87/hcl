@@ -21,7 +21,7 @@
 		"fetchMaterials": "false",
 		"jobs": [{
 			"name": "script-task",
-			"resources": ["build2"],
+			"resources": ["ip-10-0-4-33"],
 			"tasks": [{
 					"type": "exec",
 					"run_if": "passed",
