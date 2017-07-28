@@ -14,13 +14,29 @@
 			"name": "job1",
 			"resources": ["ip-10-0-4-33"],
 			"tasks": [{
-				"type": "exec",
-				"run_if": "passed",
-				"on_cancel": null,
-				"command": "echo",
-				"arguments": ["Devlina's Pipeline"],
-				"working_directory": null
-			}]
+					"type": "exec",
+					"run_if": "passed",
+					"on_cancel": null,
+					"command": "echo",
+					"arguments": ["Devlina's Pipeline"],
+					"working_directory": null
+				},
+				{
+					"pluginConfiguration": {
+						"id": "script-executor",
+						"version": "1"
+					},
+					"configuration": {
+						"property": {
+							"key": "script",
+							"value": "ls -lah"
+						}
+					},
+					"runif": {
+						"status": "passed"
+					}
+				}
+			]
 		}]
 
 	}]
